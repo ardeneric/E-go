@@ -40,7 +40,7 @@ public class EmailService {
 				context.setVariable("sender", "Eric");
 				String html = templateEngine.process("email", context);
 				
-				helper.setTo("ericar@stlghana.com");
+				helper.setTo("ardeneric77@gmail.com");
 				helper.setText(html, true);
 				helper.setSubject("test");
 				helper.addInline("logo.png", new ClassPathResource("/static/images/avatar-1.jpg"));
